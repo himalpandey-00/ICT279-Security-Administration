@@ -102,3 +102,20 @@ The Recycle Bin icon was also removed from the desktop, demonstrating that the u
 ![Group Policy applied to Windows 10 client](screenshots/04-client-wallpaper-recycle-bin-policy.png)
 
 The client-side result demonstrated how settings configured centrally on the Windows Server could be enforced on domain users through Active Directory and Group Policy.
+
+## Key Learning Outcomes
+
+Through this lab I gained practical experience with:
+
+- Creating and managing Group Policy Objects.
+- Linking a GPO to an Active Directory Organizational Unit.
+- Understanding the difference between User Configuration and Computer Configuration.
+- Applying administrative policies to selected domain users.
+- Using a shared network resource for a centrally managed desktop wallpaper.
+- Restricting access to Windows features using Administrative Templates.
+- Removing the Recycle Bin icon through Group Policy.
+- Restricting Command Prompt and Task Manager access.
+- Verifying Group Policy settings on a domain-joined Windows client.
+- Understanding how Active Directory OUs and Group Policy work together for centralised administration.
+
+This lab demonstrated how Group Policy can be used to centrally configure and restrict user environments across a Windows domain without manually configuring each client system.
